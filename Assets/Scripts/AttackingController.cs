@@ -24,8 +24,7 @@ public class AttackingController : MonoBehaviour
     {
         if(character=="Enemy")
         {
-            RayCastHit.hit.collider.gameObject.GetComponent<EnemyController>().health -= 25;
-           
+            RayCastHit.hit.collider.gameObject.GetComponent<EnemyController>().health -= 25;         
         }
         if(character=="Player")
         {
